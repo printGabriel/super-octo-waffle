@@ -18,4 +18,4 @@ def read_item(item_id: int, q: Union[str, None] = None):
 #127.7.7.1:8000/teste1
 @app.get("/teste1")
 async def funcaoteste():
-    return {"teste": True, "num_Aleatorio": random.randint(0, 1000)};
+    return {"teste": True, "num_Aleatorio": random.randint(0, 2000)};
